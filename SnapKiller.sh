@@ -1,11 +1,11 @@
-sudo snap remove --purge firefox -y
-sudo snap remove --purge snap-store -y 
-sudo snap remove --purge gnome-3-38-2004 -y 
-sudo snap remove --purge gtk-common-themes -y 
-sudo snap remove --purge snapd-desktop-integration -y 
-sudo snap remove --purge bare -y
-sudo snap remove --purge core20 version -y
-sudo snap remove --purge snapd -y
+sudo snap remove --purge firefox
+sudo snap remove --purge snap-store
+sudo snap remove --purge gnome-3-38-2004
+sudo snap remove --purge gtk-common-themes
+sudo snap remove --purge snapd-desktop-integration
+sudo snap remove --purge bare
+sudo snap remove --purge core20 version
+sudo snap remove --purge snapd
 
 sudo apt remove --purge --autoremove snapd gnome-software-plugin-snap -y
 sudo rm -rf /var/cache/snapd/ 
