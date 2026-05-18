@@ -3,7 +3,7 @@ Kill Snap package manager on Ubuntu
 
 ----------
 
-To remove Snap, Open terminal and type `git clone https://github.com/kk2lly/SnapKiller`
+To remove Snap, Open terminal and type `git clone https://github.com/KrypZero/SnapKiller`
 
 Then, type `cd SnapKiller`
 
