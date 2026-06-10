@@ -7,7 +7,7 @@ sudo snap remove --purge bare
 sudo snap remove --purge core20 version
 sudo snap remove --purge snapd
 
-sudo apt remove --purge --autoremove snapd gnome-software-plugin-snap -y
+sudo apt remove --purge --autoremove snap* gnome-software-plugin-snap -y
 sudo rm -rf /var/cache/snapd/ 
 sudo rm -rf /var/snap/
 sudo rm -rf /var/lib/snapd/
